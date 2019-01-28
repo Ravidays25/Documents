@@ -8,3 +8,14 @@ cisco node and cluster details
 https://apps.na.collabserv.com/wikis/home?lang=en-us#!/wiki/W3549edaec77e_4369_8030_51be7d08b460/page/Enterprise%20Hadoop%20Cluster%20Details
 
 -----------------------------------------------------------------------------------------------------
+
+  
+ 2019-01-28 Memory usage
+ ------------------------
+ #	Function	UseCase	AEName	Volume	UsedSize	Snapshot	Quota	Used%	Quotaused%	Replication
+1	Supply Chain IT	hdpcsc	hdpcsc	/app/SupplyChain	6.6 TB	309.2 GB	7.0 TB	0.29	93.66	13.7 TB
+2	Supply Chain IT	hdpcsc	hdpcscangoss	/app/SupplyChainAngoss	6.8 GB	0 MB	500.0 GB	0	1.37	13.7 GB
+3	Supply Chain IT (3DIT)	GSM Data Foundation	hdpcscgsm	/app/hdpcscgsm	1.2 TB	0 MB	5.0 TB	0.05	23.89	2.4 TB
+4	Supply Chain IT (3DIT)	Supply chain Common Data Layer	hdpcsclib	/app/hdpcsclib	286.9 GB	35.4 GB	7.0 TB	0.01	4	644.6 GB
+5	Supply Chain IT	hdpcsc	hdpcscmk	/app/hdpcscmk	577.2 GB	842.8 GB	1.0 TB	0.02	56.37	2.8 TB
+6	Supply Chain IT	hdpcsc	hdpcscro	/app/SuppllyChainRO	413.5 GB	0 MB	500.0 GB	0.02	82.69	826.9 GB
